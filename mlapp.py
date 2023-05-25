@@ -19,8 +19,8 @@ if os.path.exists("sourcev.csv"):
     df = pd.read_csv("sourcev.csv",index_col=None)
 
 with st.sidebar:
-    st.header("Welcome to Machine Learning Application!")
-    st.subheader("This Application is made for learning machine models.")
+    st.header("Welcome to Machine Learning Model!")
+    st.subheader("This model helpful for explor and analyze.")
     st.caption("Choose your parameters here: ")
     choose=st.radio(":computer:",["Dataset","Explore","Train","Download"])
     
