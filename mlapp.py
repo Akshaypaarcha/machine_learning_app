@@ -20,13 +20,13 @@ if os.path.exists("sourcev.csv"):
 
 with st.sidebar:
     st.header("Welcome to Machine Learning Model")
-    st.subheader("This model helpful for explore and analyze"),("The user import the data. select the parameter, the model can read the dataset, explore and analyzes, and so result. Users can download the result")
+    st.subheader("This model helpful for explore and analyze.The user import the data. select the parameter, the model can read the dataset, explore and analyzes, and so result. Users can download the result")
 ")
     st.caption("Choose your parameters here: ")
     choose=st.radio(":computer:",["Dataset","Explore","Train","Download"])
     
 if choose=="Dataset":
-    st.write("Please upload your dataset here ⬇️.")
+    st.write("Please upload your dataset here.⬇️")
     dataset_value = st.file_uploader("Upload here")
     
     if dataset_value:
