@@ -13,19 +13,21 @@ from pycaret.classification import setup, compare_models, pull, save_model, Clas
 from pycaret.regression import setup, compare_models, pull, save_model, RegressionExperiment
 
 st.image("ml.jpg")
-st.title("Machine Learning App using PyCaret")
+st.title("Machine Learning Model using PyCaret")
 
 if os.path.exists("sourcev.csv"):
     df = pd.read_csv("sourcev.csv",index_col=None)
 
 with st.sidebar:
-    st.header("Welcome to Machine Learning Model!")
-    st.subheader("This model helpful for explor and analyze.")
+    st.header("Welcome to Machine Learning Model")
+    st.subheader("This model helpful for explore and analyze")
+    st.subheader("The user import the data. select the parameter, the model can read the dataset, explore and analyzes, and so result. Users can download the result")
+")
     st.caption("Choose your parameters here: ")
     choose=st.radio(":computer:",["Dataset","Explore","Train","Download"])
     
 if choose=="Dataset":
-    st.write("Please upload your dataset here.")
+    st.write("Please upload your dataset here ⬇️.")
     dataset_value = st.file_uploader("Upload here")
     
     if dataset_value:
