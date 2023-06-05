@@ -1,10 +1,18 @@
 import streamlit as st
 page_image_bg = f"""
 <style>
-reportview-container{
-background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3mSnxCijACEZ4f9tSiYgDCm5lA4DN4aQsGlzzdbHeSrLC5ZgVWDJZpOfBIc1kJA57oT4&usqp=CAU")
-}
+[data-testid="stAppViewContainer"]{{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3mSnxCijACEZ4f9tSiYgDCm5lA4DN4aQsGlzzdbHeSrLC5ZgVWDJZpOfBIc1kJA57oT4&usqp=CAU");
+background-size:cover;
+background-repeat: no repeat;
+}}
+[data-testid="stHeader"]{{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3mSnxCijACEZ4f9tSiYgDCm5lA4DN4aQsGlzzdbHeSrLC5ZgVWDJZpOfBIc1kJA57oT4&usqp=CAU");
+background-size:cover;
+background-repeat: no repeat;
+}}
 </style>
+"""
 st.markdown(page_image_bg, unsafe_allow_html = True)
 
 import numpy as np
