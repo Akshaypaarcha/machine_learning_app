@@ -1,7 +1,9 @@
 import streamlit as st
 page_image_bg = f"""
 <style>
+reportview-container{
 background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3mSnxCijACEZ4f9tSiYgDCm5lA4DN4aQsGlzzdbHeSrLC5ZgVWDJZpOfBIc1kJA57oT4&usqp=CAU")
+}
 </style>
 st.markdown(page_image_bg, unsafe_allow_html = True)
 
