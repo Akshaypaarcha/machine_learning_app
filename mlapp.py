@@ -2,12 +2,12 @@ import streamlit as st
 page_image_bg = f"""
 <style>
 [data-testid="stAppViewContainer"]{{
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3mSnxCijACEZ4f9tSiYgDCm5lA4DN4aQsGlzzdbHeSrLC5ZgVWDJZpOfBIc1kJA57oT4&usqp=CAU");
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJuBm9Uvh5G0vMfzRJk0gRQW1zlvxtX1HkQ&usqp=CAU");
 background-size:cover;
 background-repeat: no repeat;
 }}
 [data-testid="stHeader"]{{
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3mSnxCijACEZ4f9tSiYgDCm5lA4DN4aQsGlzzdbHeSrLC5ZgVWDJZpOfBIc1kJA57oT4&usqp=CAU");
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJuBm9Uvh5G0vMfzRJk0gRQW1zlvxtX1HkQ&usqp=CAU");
 background-size:cover;
 background-repeat: no repeat;
 }}
